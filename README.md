@@ -1,4 +1,4 @@
-[intro](#introduction)
+[intro](#target-customers)
 
 # innopolis-express
 
