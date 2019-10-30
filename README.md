@@ -1,6 +1,6 @@
 
 
-# Food Delivery Use Cases #
+# Food Delivery Use Cases and Use Case Diagram #
 
   * [Order Process](#order-process "Goto Order Process") 
   * [Order Cancellation](#order-cancellation "Goto Order Cancellation")
@@ -11,7 +11,6 @@
   * [Check out](#check-out "Goto Check out")
   * [Order Detail invoice](#order-detail-invoice "Goto Order Detail invoice")
   * [Use Case Diagram](#use-case-diagram "Goto Use Case Diagram")
-  * [Order Process](#order-process "Goto Order Process") 
   * [Glossary](#glossary "Goto Glossary")
 
 
@@ -158,7 +157,7 @@
 
 ## Use Case Diagram
 
-![](media/image1.png)
+![Use cases](media/Use Case Diagram.png)
 
 ## Glossary
 
