@@ -1,9 +1,9 @@
-
+[README](reaadme.md#login)
 Food Delivery Use Cases
 =======================
 
-Order Process
--------------
+## Order Process
+
  
  | **Use Case Name**                | **Order Process**                                                 |
  |:--------------------------------:|:------------------------------------------------------------------|
@@ -21,8 +21,8 @@ Order Process
  |                                  | client will be notified about rejection                           |
   
 
-Order Cancellation
-------------------
+## Order Cancellation
+
 
   
  | **Use Case Name**                  | **Order Cancellation**                                               |
@@ -39,8 +39,8 @@ Order Cancellation
  |                                    | if it is than 1h before delivery time                                |
  
 
-Checking order status
----------------------
+## Checking order status
+
 
  
  | **Use Case Name**                | **Checking order status**                                        |
@@ -54,8 +54,8 @@ Checking order status
  | Alternative flows and exceptions | Unique code of order was not generated -- order can't be checked |
  
 
-New menu meals uploading
-------------------------
+## New menu meals uploading
+
 
  
  | **Use Case Name**                | **New menu meals uploading**                                     |
@@ -70,8 +70,8 @@ New menu meals uploading
  |                                  | point administrator receives the notification.                   |
  
 
-Current menu meals choosing
----------------------------
+## Current menu meals choosing
+
 
  
  | **Use Case Name**                | **Current menu meals choosing**                                            |
@@ -87,8 +87,8 @@ Current menu meals choosing
  |                                  | can be chosen for current menu.                                            |
  
 
-Client feedback processing
---------------------------
+## Client feedback processing
+
 
  
  | **Use Case Name**                | **Client feedback processing**                                             |
@@ -101,6 +101,33 @@ Client feedback processing
  |                                  | 4\. Client submits review-form                                             |
  | Post-conditions                  | Review information appears on "Order Monitor" page of the system next to   |
  | Alternative flows and exceptions | the client's order. User will not provide any review about its quality     |
+ 
+ | **Use Case Name**                | **Login**                                                                                |
+ |:--------------------------------:|:-----------------------------------------------------------------------------------------|
+ | Actors                           | User                                                                                     |
+ | Pre-conditions                   | None                                                                                     |
+ | Flow of events                   | 1\. The system requests that the actor enter email                                       |
+ |                                  | 2\. User enter password.                                                                 |
+ |                                  | 3\. User press login button                                                                       | Post-conditions                  | User Logs in the system                                                                  |
+ | Alternative flows and exceptions | If User enter an invalid name and/or password, the system display an error message       |
+ |                                  | The user can choose to either return to the beginning of the flow or cancel the login    |
+ 
+ 
+ | **Use Case Name**                | **Sign up**                                                                        |
+ |:--------------------------------:|:-----------------------------------------------------------------------------------|
+ | Actors                           | User                                                                               |
+ | Pre-conditions                   | User is not loggged in                                                             |
+ | Flow of events                   | 1\. User types a user name o                                   |
+ |                                  | 2\. User types a password.                                                         |
+ |                                  | 3\. User retypes the password                                                      |
+ |                                  | 4\. User Submits                                                                   |
+ |                                  | 5\. System registers the new player with the give parameters (user name, password) |
+ | Post-conditions                  | User remains signed in                                                             |
+ | Alternative flows and exceptions | 1\. System finds the user name is already in use and displays error message        |
+ |                                  | 2\. System finds the two passwords are not identical and displays error message    |
+ 
+ 
+ 
  
 Use Case Diagram
 ----------------
