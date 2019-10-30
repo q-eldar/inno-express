@@ -1,100 +1,169 @@
-[intro](#target-customers)
-
-# innopolis-express
 
 
-## Original Proposal
-By Gerald B. Imbugwa, Enombe Ewane, Harrif Saliu, and Boburmirzo Khamrakulov.
-Dolor sit amet, consectetur adipiscing elit pellentesque habitant morbi
-tristique! Ante metus, dictum at tempor commodo, ullamcorper a lacus! Fermentum
-dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis
-mauris sit amet massa vitae tortor condimentum. Nisi lacus, sed viverra tellus
-in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit
-ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu
-dictum. Cursus in hac habitasse platea dictumst quisque sagittis, purus sit amet
-volutpat consequat, mauris nunc. Sapien nec sagittis aliquam malesuada bibendum
-arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales ut. Magna
-sit amet purus gravida quis blandit! Eu mi bibendum neque egestas congue quisque
-egestas diam in arcu cursus euismod quis viverra nibh. Semper eget duis at
-tellus at urna condimentum mattis pellentesque id nibh! Nunc, sed blandit libero
-volutpat sed cras ornare arcu dui vivamus arcu. Lectus mauris ultrices eros, in
-cursus turpis massa tincidunt dui. Integer eget aliquet nibh praesent. At urna
-condimentum mattis pellentesque id nibh tortor, id aliquet lectus proin nibh
-nisl! Dolor magna eget est lorem ipsum dolor sit amet, consectetur adipiscing
-elit pellentesque habitant morbi tristique senectus et netus et malesuada. Enim
-nunc, faucibus a pellentesque sit! Aliquet nec, ullamcorper sit amet risus
-nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa
-tempor nec feugiat nisl pretium fusce id velit ut tortor? Proin gravida
-hendrerit lectus a molestie. Vulputate sapien nec sagittis aliquam malesuada
-bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales
-ut eu sem integer vitae justo eget magna? Morbi tristique senectus et netus et
-malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo
-urna, molestie at elementum eu, facilisis sed odio? Mi tempus imperdiet nulla
-malesuada pellentesque elit eget gravida. Aliquam, purus sit amet luctus
-venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
-praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla
-facilisi etiam dignissim! Pulvinar mattis nunc, sed blandit libero volutpat sed
-cras ornare arcu. Tellus, id interdum velit laoreet id donec ultrices tincidunt
-arcu, non sodales neque sodales ut etiam? Nulla malesuada pellentesque elit eget
-gravida cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-ridiculus mus mauris vitae? A molestie lorem ipsum dolor sit. Morbi blandit
-cursus risus, at ultrices mi tempus imperdiet nulla. Sed turpis tincidunt id
-aliquet risus feugiat in ante metus, dictum at tempor commodo, ullamcorper a
-lacus vestibulum sed arcu non odio euismod lacinia at quis. Praesent elementum
-facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim
-diam quis enim lobortis scelerisque fermentum! Eu tincidunt tortor aliquam nulla
-facilisi cras fermentum, odio eu feugiat pretium, nibh ipsum consequat nisl, vel
-pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas.
-Massa id neque aliquam vestibulum morbi blandit cursus risus, at ultrices mi
-tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis
-natoque penatibus? Ut venenatis tellus in metus vulputate eu scelerisque felis
-imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet
-suspendisse interdum consectetur libero, id.
-### Introduction
-Despite today’s advancements in technology, it is still common to notice
-all food points in the campus accept orders over the counters
-while relying on their best efforts for delivery.
-IU students might frequently have unforeseen changes in
-their programs or anticipate a possible absence to a scheduled meal plan
-for a particular day and in that case, stands the risk of not having
-time to eat for an already paid meal.
+# Food Delivery Use Cases #
 
-### Objectives
-* Make eating plan schedules more flexible
-* Reduce the pain of moving between floors after a tiring day
-* Exposure to larger pool of dishes to choose from.
-* Enhance the feeding experience of UI student.
-* Higher possibility for customized feeding plan to the highest extend.
-
-### Project Description and Features
-We propose a delivery app that will allow IU students to better their
-feeding experience within the University and also one through which
-the canteen can offer a better experience.
-The student will be able to choose with ease already preconfigured meal combo
-from a variety of arrays from different cafes within the campus and
-living areas.
-
-Students will be able to order for their meals and be delivered to
-their preferred destination on prefered delivery time. Apart from this,
-they also can schedule a pick-up and cancel the order one hour
-prior to delivery.
-The student can make an order which the canteen will
-receive in realtime and act upon it.
-
-Main features include:
-* Getting all food point update menu of each café in the campus for the next day.
-* Ability to order food snacks at the comfort of your seat/room.
-* Choose delivery time
-* Ability cancel order 1hr to delivery
-* Have accountable to schedule pickup of delivery 
-
-### Target customers
-**Busy students** — During strict deadlines and a high volume of studies
-students can easily order foods without distractions.
-
-**Innopolis hosts** — they can also check the meal menu and use
-food delivery service while they are staying at University.
+  * [Order Process](#order-process "Goto Order Process") 
+  * [Order Cancellation](#order-cancellation "Goto Order Cancellation")
+  * [Checking order status](#checking-order-status "Goto Checking order status")
+  * [Client feedback processing](#client-feedback-processing "Goto Client feedback processing")
+  * [Login](#login "Goto Login")
+  * [Sign up](#sign up "Goto Sign up")
+  * [Check out](#check out "Goto Check out")
+  * [Order Detail invoice](#order-detail-invoice "Goto Order Detail invoice")
+  * [Use Case Diagram](#use-case-diagram "Goto Use Case Diagram")
+  * [Order Process](#order-process "Goto Order Process") 
+  * [Glossary](#glossary "Goto Glossary")
 
 
+## Order Process 
 
+ 
+ | **Use Case Name**                | **Order Process**                                                  |
+ |:--------------------------------:|:-------------------------------------------------------------------|
+ | Actors                           | Client, Administrator                                              |
+ | Pre-conditions                   | Meal plans are shown in the system                                 |
+ | Flow of events                   | 1\. Client browses menu                                            |
+ |                                  | 2\. Client adds meals to delivery cart                             |
+ |                                  | 3\. Client adds info about contacts, place and time delivery       |
+ |                                  | 4\. Client makes checkout for all items in the cart                |
+ |                                  | 5\. New order created and will be shown in the cafe dashboard      |
+ | Post-conditions                  | Order will be processed by Administrator                           |
+ | Alternative flows and exceptions | The Administrator rejects the order of the client. The client will |
+ |                                  | be notified about rejection                                        |
+  
+
+## Order Cancellation
+
+
+  
+ | **Use Case Name**                | **Order Cancellation**                                             |
+ |:--------------------------------:|:-------------------------------------------------------------------|
+ | Actors                           | Client, Administrator                                              |
+ | Pre-conditions                   | Order is created by client                                         |
+ | Flow of events                   | 1\. Client receives unique identification № of order               |
+ |                                  | 2\. Current status of order and cancel-button is displayed on page |
+ |                                  | screen                                                             |
+ |                                  | 3\. Client cancels order by cancel-button                          |
+ |                                  | 4\. Administrator gets notification about cancelling order         |
+ | Post-conditions                  | Order is cancelled                                                 |
+ | Alternative flows and exceptions | Order can't be cancelled if it already has status "delivering".    |
+ 
+
+ 
+
+## Checking order status
+ 
+ | **Use Case Name**                | **Checking order status**                                       |
+ |:--------------------------------:|:----------------------------------------------------------------|
+ | Actors                           | Client                                                          |
+ | Pre-conditions                   | Order is created by client                                      |
+ | Flow of events                   | 1\. Client receives unique identification № of order            |
+ |                                  | 2\. Client enters № of order to check-order web pages           |
+ |                                  | 3\. Current status of the order is displayed on page            |
+ | Post-conditions                  | Client gets to know about current order status                  |
+ | Alternative flows and exceptions | Unique code of order was not generated.  Order can't be checked |
+ |                                  |                                                                 |
+ 
+ 
+
+
+## Client feedback processing
+ 
+ | **Use Case Name**                | **Client feedback processing**                                           |
+ |:--------------------------------:|:-------------------------------------------------------------------------|
+ | Actors                           | Client                                                                   |
+ | Pre-conditions                   | Order in the "delivered" status, the user on the "Check Order" page      |
+ | Flow of events                   | 1\. The system asks the client about the quality of food (like/dislike)  |
+ |                                  | 2\. Client makes a choice (like/dislike)                                 |
+ |                                  | 3\. Client leaves a comment in the textbox                               |
+ |                                  | 4\. Client submits review-form                                           |
+ | Post-conditions                  | Review information appears on "Order Monitor" page of the system next to |
+ | Alternative flows and exceptions | the client's order. User will not provide any review about its quality   |
+
+
+## Login
+
+
+ | **Use Case Name**                | **Login**                                                                |
+ |:--------------------------------:|:-------------------------------------------------------------------------|
+ | Actors                           | User                                                                     |
+ | Pre-conditions                   | None                                                                     |
+ | Flow of events                   | 1\. The system requests that the actor enter email                       |
+ |                                  | 2\. User enter password.                                                 |
+ |                                  | 3\. User press login button                                              |
+ | Alternative flows and exceptions | If User enter an invalid name and/or password, the system display an     |
+ |                                  | error message. The user can choose to either return to the  beginning of |
+ |                                  | the flow or cancel the login                                             |
+ |                                  |                                                                          |
+ |                                  |                                                                          |
+
+
+
+## Sign up
+
+ | **Use Case Name**                | **Sign up**                                                              |
+ |:--------------------------------:|:-------------------------------------------------------------------------|
+ | Actors                           | Client                                                                   |
+ | Pre-conditions                   | Client is not loggged in                                                 |
+ | Flow of events                   | 1\. Client enters name                                                   |
+ |                                  | 2\. Client enters phone number                                           |
+ |                                  | 3\. Client enters password.                                              |
+ |                                  | 4\. Client retypes the password                                          |
+ |                                  | 5\. Client enters address                                                |
+ |                                  | 6\. Client Submits data with signup button                               |
+ |                                  | 7\. System registers the new user with the give parameters (user name,   |
+ |                                  | password)                                                                |
+ | Post-conditions                  | User remains signed in                                                   |
+ | Alternative flows and exceptions | 1\. System finds the user name is already in use and displays error      |
+ |                                  | message                                                                  |
+ |                                  | 2\. System finds the two passwords are not identical and displays  error |
+ |                                  | message                                                                  |
+
+
+
+## Check out
+
+ | **Use Case Name**                | **Check out**                                                 |
+ |:--------------------------------:|:--------------------------------------------------------------|
+ | Actors                           | Client                                                        |
+ | Precondition                     | 1\. Client has account.                                       |
+ |                                  | 2\. Client has signed up to the system                        |
+ |                                  | 3\. Client has ordered meal                                   |
+ | Flow of events                   | 1\. Client checks item or items in the cart                   |
+ |                                  | 2\. Client checks total price for current ordered meal/meals  |
+ |                                  | 3\. Client checks delivery address or changes address         |
+ |                                  | 4\. Client checks number or change number                     |
+ |                                  | 5\. Client completes with pressing "update" button            |
+ | Postcondition                    | Changes information displays on client screen                 |
+ | Alternative flows and exceptions | Client has not created account. System asks to create account |
+ |                                  |                                                               |
+
+
+## Order Detail invoice
+
+ | **Use Case Name**                | **Order Detail invoice**                             |
+ |:--------------------------------:|:-----------------------------------------------------|
+ | Actors                           | Client                                               |
+ | Precondition                     | 1\. Client has account.                              |
+ |                                  | 2\. Client has signed up to the system               |
+ |                                  | 3\. Client has ordered meal                          |
+ | Flow of enents                   | 1\. Client checks order number                       |
+ |                                  | 2\. Client checks meal he or she ordered             |
+ |                                  | 3\. Client checks quantity of meal he or she ordered |
+ |                                  | 4\. Client checks price                              |
+ | Postcondition                    | No post condition.                                   |
+ | Alternative flows and exceptions | User cancels order.                                  |
+ |                                  |                                                      |
+
+
+## Use Case Diagram
+
+![](media/image1.png)
+
+## Glossary
+
+
+1.  **Client** - a person who orders food from the system.
+
+2.  **Administrator** - manages the system and adds new users to the system
 
